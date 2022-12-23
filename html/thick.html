@@ -1,0 +1,142 @@
+<!-- This is a HTML comment -->
+<!-- 
+    HTML Element: Is defined such a element with that contains a open
+    tag, content and close tag.
+
+    <tagname> <- open
+        Content
+    </tagname> <- close
+
+    HTML Empty element: Is a HTML element without content and a tag 
+    for close.
+
+    <tagname /> <- self-close
+
+    Nested HTML elements:
+        <A> <- root parent
+            <B> <- child parent
+               <C></C> <- child sibling
+	       <D></D> <- child sibling
+	    </B>
+	</A>
+    
+    <!DOCTYPE html>: Specifies to the browser that this document is a
+    HTML 5 document.
+
+    NOTE: All HTML 5 documents must starts with a <!DOCTYPE html> 
+    declaration.
+-->
+<!DOCTYPE html>
+<!-- 
+    attribute="value": Syntax for setting attributes on html elements.
+
+    lang="...": Attribute for setting language code for the document.
+-->
+<html lang="en"><!-- html: Root element for all documents. -->
+    <head><!-- head: Contains all not-visible elements that describes the document metadata. -->
+	<!-- 
+	    charset="...": Attribute for setting the character set.
+	-->
+	<meta charset="UTF-8"><!-- meta: Element that represents one data or setting for the document. -->
+	<!--
+            name="keywords" content="...": Pairs of attributes that 
+	    define the keywords set for the search engines.
+
+	    name="description" content="...": Attribute that define a
+	    description of the document.
+
+	    name="author" content="...": Attribute that define a 
+	    author of the document.
+	-->
+	<meta name="keywords" content="html, css, javascript"/>
+	<meta name="author" content="gaidenshinji"/>
+	<meta name="description" content="This is a summary of html"/>
+	<!--
+            name="viewport" content="width=device-width, initial-scale=1.0": 
+	    Attribute that setting the document width and scale at the
+	    device screen.
+
+	    width=device-width: Setting the page width to follow the
+	    screen width of the device.
+
+	    initial-scale=1.0: Setting the initial zoom level when the
+	    page is first loaded.
+	-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--
+            http-equiv="..." content="...": Attribute provide an HTTP
+	    header for the information/value of the content attribute.
+	-->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> <!-- Specifies the character encoding for the document -->
+	<!--
+            NOTE: the title is very important for SEO. The title is 
+	    used by search engine algorithms to decide the order when
+	    listing pages in search results.
+
+	    NOTE: the title element must to contain plain text.
+	-->
+	<title>HTML Summary</title><!-- title: Element for the set a document title. -->
+    <style><!-- Defines CSS styles for the document --></style>
+    <!--
+        type="...": Attribute for set the type of the element.
+
+	src="...": Attribute for define the path from the extern file.
+    -->
+    <script type="text/javascript" src="/path/"></script><!-- Defines JS script for the document. -->
+    <!--
+        rel="...": Attribute that contains the file type.
+
+	href="...": Attribute for define the path from the extern file.
+    -->
+    <link rel="stylesheet" href="/path/"/><!-- link: Element that defines the relationships between the document and an external resource. -->
+    </head>
+    <body><!-- body: Contains all visible elements of document. -->
+	<header>
+	</header>
+	<nav></nav>
+	<aside>
+	    <section>
+                <!-- Headings -->
+	    </section>
+            <section>
+                <!-- paragraphs -->
+	    </section>
+	    <section>
+                <!-- formatting -->
+	    </section>
+	    <section>
+                <!-- quotations -->
+	    </section>
+	    <section>
+                <!-- characters -->
+	    </section>
+	</aside>
+	<main>
+            <!-- HTML elements -->
+	</main>
+	<article>
+            <!-- Elements for a set of elements -->
+	    <section>
+                <!-- lists -->
+	    </section>
+	    <section>
+                <!-- tables -->
+	    </section>
+	</article>
+	<article>
+            <!-- javascript -->
+	</article>
+	<aside>
+	    <!-- Article to little style, color and CSS related -->
+            <article>
+                
+	    </article>
+	    <!-- A little style for a image -->
+	    <figure>
+                <img/>
+		<figcaption></figcaption>
+	    </figure>
+	</aside>
+	<footer></footer>
+    </body>
+</html>
